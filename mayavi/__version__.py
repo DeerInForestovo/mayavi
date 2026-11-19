@@ -6,3 +6,8 @@
 
 from mayavi.version import version as __version__
 
+
+def increment(value):
+    return value + 1
+
+increment(1, 2)
